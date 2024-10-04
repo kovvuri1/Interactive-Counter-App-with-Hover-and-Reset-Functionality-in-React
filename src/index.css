@@ -1,0 +1,84 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color:#d1e7dd;
+}
+.container{
+  background-color:white;
+  height: 450px;
+  width: 800px;
+  border-radius: 10px;
+  margin:100px auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  position: relative;
+}
+.con1{
+  height: 100%;
+  width: 400px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+img[alt="num"]{
+  height: 400px;
+  width: 350px;
+  margin: 10px;
+  animation-name: num;
+  animation-duration:2s;
+  animation-iteration-count: infinite;
+}
+@keyframes num{
+  50%{
+    transform: scale(1,1.04);
+  }
+  50%{
+    transform: scale(1,1.02);
+  }
+}
+.result{
+  box-shadow: rgba(122, 236, 168, 0.25) 0px 54px 55px, rgba(150, 243, 168, 0.12) 0px -12px 30px, rgba(99, 149, 130, 0.12) 0px 4px 6px, rgba(161, 240, 166, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 250px;
+  height: 60px;
+  border-radius: 15ox;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px;
+  font-family: "Sofadi One", system-ui;
+}
+.add{
+  width: 90px;
+  height: 90px;
+  border: 1px;
+  border-radius: 50%;
+  font-family: "Sofadi One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 600;
+  font-size: large;
+  position: absolute;
+  bottom: 200px;
+  right: 110px;
+  background-color: rgb(168, 231, 168);
+}
+.add1{
+  position: absolute;
+  bottom: 200px;
+  right: 240px;
+
+}
+img[alt="cloud"]{
+  height: 150px;
+  width: 190px;
+  position: absolute;
+  bottom: 35px;
+  right: 140px;
+}
+.res{
+  background-color: transparent;
+  position: absolute;
+  bottom: 65px;
+  right: 190px;
+}
